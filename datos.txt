@@ -1,0 +1,25 @@
+1
+Luis Angel
+Duque Adame
+22
+Programador
+2
+María Elena
+Adame Adame
+44
+Gerente
+3
+Enrique
+Duque Adame
+25
+Ingeniero
+4
+Yahir Osvaldo
+Duque Adame
+19
+Arquitecto
+5
+Francisco
+Juarez Alarcon
+45
+Aministrador

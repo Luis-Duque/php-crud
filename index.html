@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardar contacto</title>
+    <script>
+        function cambiar(){
+            window.location.href = "guardar.php";
+            window.close();
+        }
+    </script>
+</head>
+<body">
+    <form name="f1" action="guardar.php" method="POST">
+        <table class="table">
+            <tr><td>ID</td><td><input type="number" name="id" required></td></tr>
+            <tr><td>Nombre</td><td><input type="text" name="nombre" required></td></tr>
+            <tr><td>Apellidos</td><td><input type="text" name="apellidos" required></td></tr>
+            <tr><td>Edad</td><td><input type="number" name="edad" required></td></tr>
+            <tr><td>Puesto</td><td><input type="text" name="puesto" required></td></tr>
+            <tr><td><input type="submit" value="Guardar"></td></tr>
+        </table>
+    </form>
+    <a href="listado.php">Administrar contactos</a><br>
+    <a href="buscar.html">Buscar contactos</a>
+</body>
+</html>
